@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(18, 20, 18);
+    height: 70px;
+}
+.image{
+    height: 120px;
+    width: 140px;
+}
+
+.new{
+    margin-right: 50px;
+    display: flex;
+    gap: 15px;
+}
+h1{
+    padding-left: 10px;
+}
+
+.new a{
+    color: black;
+    font-size: x-large;
+
+}
+  
+.main img{
+    width: 200px;
+}
+
+main{
+    display: flex;
+    max-width: 1300px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+
+    margin-top: 40px;
+}
+
+.Dharamshala{
+    margin-top: 30px;
+    padding: auto;
+    border: 2px solid black;
+}
+.about-dham{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.about-dham img{
+    height: 400px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.about-dham div{
+    padding-left: 40px;
+    width: 500px
+}
+
+/* .about-bang{
+    display: flex;
+    flex-direction: row-reverse; */
+/* } */
+
+/* Amravati */
+
+
+.Amravati{
+    margin-top: 30px;
+    padding: auto;
+    border: 2px solid black;
+}
+.about-amar img{
+    width: 550px;
+    height: 400px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.about-amar div{
+    padding-left: 40px;
+    width: 500px
+}
+.about-amar{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* Banglore */
+
+.Banglore{
+    margin-top: 30px;
+    padding: auto;
+    border: 2px solid black;
+}
+
+.about-bang img{
+    width: 550px;
+    height: 400px;
+    padding-left: 10px;
+    padding-bottom: 10px; 
+}
+
+.about-bang div{
+    padding-left: 40px;
+    width: 500px
+}
+.about-bang{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Pune */
+
+
+.Pune{
+    margin-top: 30px;
+    padding: auto;
+    border: 2Px solid black;
+}
+
+.about-pune div{
+    padding-left: 40px;
+    width: 500px
+}
+
+.about-pune img{
+    width: 550px;
+    height: 400px;
+    padding-left: 10px;
+    padding-bottom: 10px; 
+}
+.about-pune{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* Footer of Flipcart */
+
+
+.footer{
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: rgb(219, 135, 112);
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-items > a{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.inner > a{
+    color: black;
+    display: block;
+    padding: 4px 0;
+}
+
+
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-top: 20px;
+}
